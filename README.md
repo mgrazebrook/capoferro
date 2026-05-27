@@ -10,3 +10,5 @@ Reasoning: Let a conducting fencing jacket has a capacitance as a 60cm diameter 
 So using a [470pF capacitor](https://kitronik.co.uk/products/3008-470uh-470uh-inductor-470uh) and the formula $f = \frac{1}{2\pi\sqrt{LC}}$ so about 500 MHz. Or with a [4.7 mH Bobbin Inductor](https://uk.rs-online.com/web/p/leaded-inductors/7156832), 164 KHz
 
 Guess: When there's a hit, the capacitance rougly doubles so the frequency reduced by $\sqrt{ 2 }$
+
+164 KHz is too fast to count in code so we need to reduce the frequency it using a counter
